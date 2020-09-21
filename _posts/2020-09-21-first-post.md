@@ -1,24 +1,16 @@
 ---
 layout: post
 title:  "First Post"
+date: 2020-09-21
 ---
 
-# ...is this thing on? Testing, testing, aw-deeeeee-ohhhhhhhhhhh, aw-deeeeeeeee-oh...
+<h2>...is this thing on? Testing, testing, aw-deeeeee-ohhhhhhhhhhh, aw-deeeeeeeee-oh...</h2>
 
-(could be worse - I could just be dropping carriers)
+<p>(could be worse - I could just be dropping carriers)</p>
 
-**Hello world**, this is my first Jekyll blog post.
+<p><em>Hello world</em>, this is my first Jekyll blog post.</p>
 
-I don't really care if you like it or not, it is what it is.
+<p>I don't really care if you like it or not, it is what it is.</p>
 
--- Mark/VK3EET, MERC webmonkey
+<p>-- Mark/VK3EET, MERC webmonkey</p>
 
-
-
-<ul>
-  {% for post in site.posts %}
-    <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
-    </li>
-  {% endfor %}
-</ul>
