@@ -12,3 +12,13 @@ title:  "First Post"
 I don't really care if you like it or not, it is what it is.
 
 -- Mark/VK3EET, MERC webmonkey
+
+
+
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
